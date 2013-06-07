@@ -30,6 +30,7 @@ install dependencies with npm
 
 ## Mobile Apps
 Apple's [UI Automation framework](http://developer.apple.com/library/ios/#documentation/DeveloperTools/Reference/UIAutomationRef/_index.html) uses Javascript.
+
 - we have Javascript and native code, but
 - can run most of the app in a browser
 - we also have parts that depend on a native environment
@@ -176,6 +177,8 @@ Proof you say?
 			}
 		});
 	});
+	
+	$ mocha -R spec title.js
 
 
 ![Google](google.png)
@@ -195,6 +198,9 @@ PhantomJS not only implements the WebDriver protocol, it also has its own API:
 	});
 
 	$ phantom pic.js
+
+
+![Github](github.png)
 
 
 
@@ -221,6 +227,7 @@ You will need a Mac with XCode for this! Appium needs to be running in the backg
 	$ appium &
 
 or
+
 	$ npm run-script appium
 
 Automate a native app:
