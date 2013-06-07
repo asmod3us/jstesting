@@ -1,0 +1,27 @@
+{
+	"name": "testing",
+	"version": "0.0.0",
+	"description": "",
+	"main": "bdd.js",
+	"dependencies": {
+		"selenium-webdriver": "~2.33.0",
+		"should": "~1.2.2"
+	},
+	"devDependencies": {
+		"should": "~1.2.2",
+		"selenium-webdriver": "~2.33.0",
+		"mocha": "~1.10.0",
+		"phantomjs": "~1.9.0-6",
+		"chai": "~1.6.1",
+		"appium": "~0.6.1",
+		"wd": "0.0.32",
+		"grunt": "~0.4.1",
+		"grunt-contrib-connect": "~0.3.0"
+	},
+	"scripts": {
+		"webdriver": "phantomjs --webdriver=4444 &",
+		"appium": "appium &"
+	},
+	"repository": "https://github.com/asmod3us/jstesting",
+	"author": "Achim Staebler"
+}
